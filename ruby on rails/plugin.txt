@@ -1,0 +1,6 @@
+Beautify
+HTML Snippets
+JavsScript Snippet Pack
+rails 
+Ruby
+ruby-on-rails-snippets
