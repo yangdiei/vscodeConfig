@@ -1,0 +1,10 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "editor.tabSize": 2,
+    "editor.fontFamily": "'DejaVu Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
+    "window.zoomLevel": 0,
+    "emmet.useNewEmmet": true,
+    "files.associations": {
+      "*.html.erb": "html"
+    }
+  }
