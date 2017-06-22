@@ -1,10 +1,58 @@
 // Place your settings in this file to overwrite the default settings
 {
-    "editor.tabSize": 2,
-    "editor.fontFamily": "'DejaVu Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
-    "window.zoomLevel": 0,
-    "emmet.useNewEmmet": true,
-    "files.associations": {
-      "*.html.erb": "html"
-    }
+  "editor.tabSize": 2,
+  "editor.fontFamily": "'DejaVu Sans Mono', 'Courier New', monospace, 'Droid Sans Fallback'",
+  "window.zoomLevel": 0,
+  "emmet.useNewEmmet": true,
+  "files.associations": {
+    "*.html.erb": "html"
+  },
+  "vim.enableNeovim": false,
+  "vim.neovimPath": "/usr/bin/nvim",
+  "vim.insertModeKeyBindings": [{
+    "before": ["j", "j"],
+    "after": ["<Esc>"]
+  }],
+  "vim.statusBarColorControl": true,
+  "vim.statusBarColors": {
+    "normal": "#005f5f",
+    "insert": "#5f0000",
+    "visual": "#5f00af",
+    "visualline": "#005f87",
+    "visualblock": "#86592d",
+    "replace": "#000000"
+  },
+  "vim.ignorecase": false,
+  "vim.otherModesKeyBindingsNonRecursive": [{
+    "before": [":"],
+    "after": [],
+    "commands": [{
+      "command": "workbench.action.showCommands",
+      "args": []
+    }]
+  }],
+  "vim.otherModesKeyBindingsNonRecursive": [{
+    "before": ["Z", "Z"],
+    "after": [],
+    "commands": [{
+        "command": "workbench.action.files.save",
+        "args": []
+      },
+      {
+        "command": "workbench.action.closeActiveEditor",
+        "args": []
+      }
+    ]
   }
+],
+"workbench.colorCustomizations": {
+  "statusBar.background": "#005f5f",
+  "statusBar.noFolderBackground": "#005f5f",
+  "statusBar.debuggingBackground": "#005f5f"
+},
+"vim.disableAnnoyingNeovimMessage": true,
+  "vim.handleKeys": {
+      "<C-a>": false,
+      "<C-f>": false
+  }
+}
